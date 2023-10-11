@@ -1,0 +1,14 @@
+{
+  "name": "xizhao-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./scripts/runDev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4"
+  }
+}
