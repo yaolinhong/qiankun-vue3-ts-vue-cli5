@@ -1,10 +1,11 @@
 {
-  "name": "xizhao-sass",
+  "name": "# qiankun-vue3-ts-vue-cli5",
   "version": "1.0.0",
-  "description": "",
+  "description": "Vue3 + cli5 + Typescript + qiankun项目模板",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./scripts/runDev"
+    "dev": "node ./scripts/runDev",
+    "install-all": "pnpm install && node ./scripts/cloneAndInstall"
   },
   "author": "",
   "license": "ISC",
