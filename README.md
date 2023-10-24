@@ -15,3 +15,7 @@ pnpm install-all
 pnpm run dev
 # 打开 http://localhost:8990/
 ```
+
+<!-- TODO 共享store -->
+<!-- TODO 共享子应用通信 -->
+<!-- TODO 子应用模板共享 -->

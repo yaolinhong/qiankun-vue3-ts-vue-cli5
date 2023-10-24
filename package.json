@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node ./scripts/runDev",
+    "buildAll": "node ./scripts/buildAll",
     "install-all": "pnpm install && node ./scripts/cloneAndInstall"
   },
   "author": "",
