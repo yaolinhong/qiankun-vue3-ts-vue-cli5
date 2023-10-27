@@ -86,6 +86,7 @@ module.exports = defineConfig({
     config.resolve.symlinks(false);
   },
   devServer: {
+    open: true,
     port: process.env.VUE_APP_PORT,
     headers: {
       "Access-Control-Allow-Origin": "*",

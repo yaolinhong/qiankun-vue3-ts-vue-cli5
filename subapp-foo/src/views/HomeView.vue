@@ -39,7 +39,7 @@ console.log("foo-homeview调用接口1");
 
 onMounted(() => {
   console.log("here", driverObj);
-  driverObj?.drive();
+  // driverObj?.drive();
 });
 // setInterval(() => {
 //   count.value += 2000;

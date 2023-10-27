@@ -1,5 +1,5 @@
 import Vue from "vue";
-import ElementPlus from "element-plus";
+import { ElementPlus } from "@xzui/components";
 import VueRouter from "vue-router";
 interface micoAppSubApp {
   getRoute: () => Array<RouteRecordRaw>;

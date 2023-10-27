@@ -2,8 +2,13 @@ import "./public-path";
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import App from "./App.vue";
-import ElementPlus from "element-plus";
+import { XZUI, ElementPlus } from "@xzui/components";
+console.log("🚀 ~ file: main.ts:6 ~  XZUI, ElementPlus:", XZUI, ElementPlus);
+
+import abc from "@xzui/components";
+console.log("🚀 ~ file: main.ts:6 ~ ElementPlus:", abc);
 import "element-plus/dist/index.css";
+import "@xzui/components/dist/style.css";
 import zhCn from "element-plus/es/locale/lang/zh-cn";
 import createSubAppRouter from "./router";
 import routes from "./router/routes";

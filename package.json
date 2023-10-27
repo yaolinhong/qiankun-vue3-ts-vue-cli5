@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "node ./scripts/runDev",
     "buildAll": "node ./scripts/buildAll",
-    "install-all": "pnpm install && node ./scripts/cloneAndInstall"
+    "install-all": "pnpm install && node ./scripts/cloneAndInstall",
+    "dev-all": "pnpm --filter ./** run dev"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@xzui/ui": "^0.0.0",
     "chalk": "4"
   }
 }

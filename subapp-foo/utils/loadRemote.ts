@@ -1,4 +1,5 @@
-import ElementPlus from "element-plus";
+import abc from "@xzui/components";
+console.log("🚀 ~ file: loadRemote.ts:2 ~ abc:", abc);
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import App from "@/App.vue";
@@ -38,7 +39,8 @@ export function render(props: {
   const store = createPinia();
 
   const app = createApp(App);
-  app.use(router).use(store).use(ElementPlus, { locale: zhCn });
+  app.use(router).use(store);
+  // .use(ElementPlus, { locale: zhCn });
   console.log(
     '🚀 - container.querySelector("#app"):',
     container.querySelector("#app")

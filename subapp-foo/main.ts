@@ -30,6 +30,7 @@ export async function mount(props: any) {
   // commonStore.globalRegister(store, props);
   const { render } = await import("@/utils/loadRemote");
   render(props);
+  console.log("🚀 ~ file: main.ts:33 ~ mount ~ props:", props);
 }
 
 export async function unmount() {
